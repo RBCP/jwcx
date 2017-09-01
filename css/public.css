@@ -1,0 +1,203 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,header,hgroup,nav,section,article,aside,footer,figure,figcaption,menu,button {
+	margin: 0;
+	padding: 0
+}
+
+html{
+	max-width: 600px;
+	max-height:300px;
+	margin:0 auto;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 16px;
+	color: #000;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+	outline: 0;
+	background:#F5F5F5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th {
+	text-align: left
+}
+
+fieldset,img {
+	border: 0
+}
+
+li {
+	list-style: none
+}
+
+ins {
+	text-decoration: none
+}
+
+del {
+	text-decoration: line-through
+}
+
+input,button,textarea,select,optgroup,option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	outline: 0
+}
+
+button {
+	-webkit-appearance: none;
+	border: 0;
+	background: none
+}
+
+a {
+	-webkit-touch-callout: none;
+	text-decoration: none
+}
+
+:focus {
+	outline: 0;
+	-webkit-tap-highlight-color: transparent
+}
+
+em,i {
+	font-style: normal
+}
+
+@font-face {
+	font-family:"iconfont";src:url("../font/iconfont-full.ttf") format("truetype")
+}
+
+.ui-icon,[class^="ui-icon-"] {
+	font-family: "iconfont" !important;
+	font-size: 32px;
+	line-height: 44px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	display: block;
+	color: rgba(0,0,0,0.5)
+}
+
+.ui-icon-close:before {
+	content: "ï˜Š"
+}
+
+.ui-icon-search:before {
+	content: "ï˜Œ"
+}
+
+.ui-icon-return:before {
+	content: "ï˜”"
+}
+
+.ui-icon-close,.ui-icon-search {
+	color: #8e8e93
+}
+
+@media screen and (max-width: 319px) {
+	html {
+		font-size: 85.33333px
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+	html {
+		font-size: 85.33333px
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+	html {
+		font-size: 96px
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 383px) {
+	html {
+		font-size: 100px
+	}
+}
+
+@media screen and (min-width: 384px) and (max-width: 399px) {
+	html {
+		font-size: 102.4px
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 413px) {
+	html {
+		font-size: 106.66667px
+	}
+}
+
+@media screen and (min-width: 414px) and (max-width: 500px) {
+	html {
+		font-size: 110.4px
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+	html {
+		font-size: 133.6px
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+	html {
+		font-size: 160.26667px
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+	html {
+		font-size: 186.93333px
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+	html {
+		font-size: 213.6px
+	}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+	html {
+		font-size: 240.26667px
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: 273.06667px
+	}
+}
+
+.append{
+	position: fixed;
+  width: 100%;
+  max-width: 480px;
+ 	text-align: center;
+  bottom: 10px;
+  color: #00000;
+  font-size: 0.7em;
+  font-size:#000000;
+}
+
+.weui-toast{
+	margin-left: 0px;
+}
