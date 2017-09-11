@@ -49,23 +49,6 @@
         <div class="label">密&nbsp;&nbsp;&nbsp;&nbsp;码：</div>
         <input name="pw" type="password"  class="txts"  placeholder="请输入密码" value=""/>
       </div>
-      <div class="searchbox">
-      <p class="search_con">
-      <span class="Label">学&nbsp;&nbsp;年:</span>
-      <select name="ddlXN" id="ddlXN">
-      <option value></option>
-      <option value="2017-2018">2017-2018</option>
-      <option value="2016-2017">2016-2017</option>
-      <option value="2015-2016">2015-2016</option>
-      <option value="2014-2015">2014-2015</option>
-      </select>
-      <span class="Label2">学&nbsp;&nbsp;期:</span>
-      <select name="ddl_XQ" id="ddlXQ">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      </select>
-      </p>
-      </div>
       <div class="so_box" id="33">
       <div class="label">验证码:</div>
       <input name="code" type="text" class="txts" placeholder=" "/>
